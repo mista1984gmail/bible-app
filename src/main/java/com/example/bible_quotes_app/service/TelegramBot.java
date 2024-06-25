@@ -60,7 +60,7 @@ public class TelegramBot extends TelegramLongPollingBot {
     }
 
     private void continueCommandReceived(Long chatId) {
-        String answer = "Опишу, что тебя волнует или тревожит.";
+        String answer = "Опиши, что тебя волнует или тревожит.";
         sendMessage(chatId, answer);
     }
 
